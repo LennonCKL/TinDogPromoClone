@@ -1,0 +1,213 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+h1,h2,h3{
+    font-family: "Days One"; 
+}
+
+
+/* Heading */
+.main-heading{
+    font-family: "Days One";
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+p{
+    color: #8f8f8f;
+    
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 3rem;
+}
+
+.navbar-brand{
+    font-family: "ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 15px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: montserrat, sans-serif;
+}
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+
+.phoneimage{
+    width: 20%;
+    transform: rotate(20deg);   
+    position: absolute;
+    right: 22%;
+}
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+    .phoneimage{
+        position: static;
+        width: 50%;
+        transform:rotate(0);
+    }
+}
+
+/* Features */
+
+h3{
+    font-family: "Days One-bold" , sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+    
+}
+
+.feature-block{
+    padding: 0 5%;
+}
+
+.ficon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.ficon2{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.ficon:hover{
+    color:#ff4c68;
+    transform: rotate(360deg); 
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.ficon2:hover{
+    color:#ff4c68;
+    transform: rotateY(360deg); 
+    transition: all 0.5s ease-in-out 0s;
+}
+
+/* Testimonial */
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width:15%;
+    border-radius: 100%;
+    margin: 0 20px;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Press */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 3% 7%;
+    font-family: "ubuntu", sans-serif;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Call to Action */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 3% 5% 0;
+    margin-bottom: 0;
+}
+
+.ctamotto{
+    font-family: "Days One";
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #fff;
+    padding: 0 20%;
+}
+
+/* Footer */
+
+#footer{
+    background-color: #fff;
+    margin: 50px auto;
+}
+
+.contacticon{
+    margin: 20px auto 10px;
+}
+
+.fab2{
+    margin: 10px 10px;
+}
